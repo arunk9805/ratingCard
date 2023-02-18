@@ -1,0 +1,132 @@
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    min-height: 110vh;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 400px;
+    padding: 35px 45px 30px 35px;
+    margin: 1.5rem;
+    border-radius: 20px;
+    background: radial-gradient(farthest-side at top center, hsl(215deg, 17%, 15%), hsl(215deg, 27%, 12%));
+    background-color: hsl(213, 19%, 18%);
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.star-icon-bg {
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(216, 15%, 26%);
+    border-radius: 50%;
+    /* margin-left: 15px; */
+    margin-bottom: 35px;
+}
+
+.main-heading {
+    font-weight: 700;
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.main-para {
+    font-size: 1.1rem;
+    color: hsl(217, 12%, 63%);
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 25px;
+    padding: 0;
+}
+
+.rating-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.rating-container ul li button {
+    width: 3.8rem;
+    height: 3.8rem;
+    border: none;
+    background-color: hsl(213, 19%, 18%);
+    cursor: pointer;
+    color: #fff;
+    padding-top: 0.2rem;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.rating-container ul li button:hover {
+  background-color: hsl(25,97%,53%);
+}
+
+.rating-container ul li button:focus {
+  background-color:hsl(217, 12%, 63%)
+}
+
+.submit {
+  background-color: hsl(25,97%,53%);
+  width: 100%;
+  
+  font-weight:bold;
+  font-size: medium;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  letter-spacing: 1.5px;
+  color: white;
+}
+
+.submit:hover {
+    background-color: white;
+    color: hsl(25,97%,53%);
+}
+
+.submit:focus {
+    background-color: hsl(25,97%,53%);
+    color: white;
+}
+
+
+.thankyou-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    padding-bottom: 43px;
+}
+
+
+p.grey-bg {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    padding: 5px 15px;
+    border-radius: 30px;
+    margin: 40px;
+}
+
+.thankyou-container h2 {
+    margin: 0px;
+}
+
+.hidden {
+    display: none;
+}
